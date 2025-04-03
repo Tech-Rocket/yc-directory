@@ -6,9 +6,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import LoginForm from "./LoginForm";
 
-export default function LoginModal() {
+export default function RegisterModal() {
   return (
     <>
       <Dialog>
@@ -25,7 +24,7 @@ export default function LoginModal() {
               nihil corrupti, minima harum, ipsum at maxime deserunt vero illo
               iure necessitatibus amet. Magni.
             </DialogDescription>
-            <LoginForm />
+            {/* <LoginForm /> */}
           </DialogHeader>
         </DialogContent>
       </Dialog>
